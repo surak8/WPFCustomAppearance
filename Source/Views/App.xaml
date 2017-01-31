@@ -1,0 +1,5 @@
+<Application xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:local="clr-namespace:NSWPFCustomAppearance"
+	x:Class="NSWPFCustomAppearance.Application"
+	StartupUri="/Source/Views/MainWindow.xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<Application.Resources></Application.Resources>
+</Application>
