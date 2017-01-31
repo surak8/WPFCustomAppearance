@@ -11,7 +11,7 @@
 using System.Windows;
 
 
-namespace NSWPFCustomAppearance {
+namespace NSTest {
     
     public partial class MainWindow : Window {
         MainWindowViewModel _vm;

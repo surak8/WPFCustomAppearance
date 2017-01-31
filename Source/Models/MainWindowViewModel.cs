@@ -12,7 +12,7 @@ using System.ComponentModel;
 using System.Reflection;
 
 
-namespace NSWPFCustomAppearance {
+namespace NSTest {
     
     public partial class MainWindowViewModel : INotifyPropertyChanged {
         public MainWindowViewModel() {

@@ -9,7 +9,9 @@
 //------------------------------------------------------------------------------
 
 
-namespace NSWPFCustomAppearance {
+//using NSWPFCustomAppearance;
+
+namespace NSTest {
     
     public partial class App : Application {
     }

@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup Label="None">
     <None Include="app.config" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup Label="AssemblyInfo">
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -67,6 +68,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Generator</SubType>
     </ApplicationDefinition>
+    <Compile Include="Source\Controls\Button.cs" />
+    <Compile Include="Source\Controls\NumericUpDown.cs" />
     <Compile Include="Source\Models\MainWindowViewModel.cs" />
     <Compile Include="Source\Views\App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
@@ -76,6 +79,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Source\themes\generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Source\Views\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

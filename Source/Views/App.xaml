@@ -1,5 +1,8 @@
-<Application xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:local="clr-namespace:NSWPFCustomAppearance"
-	x:Class="NSWPFCustomAppearance.Application"
+<!-- https://msdn.microsoft.com/en-us/library/ee330302%28v=vs.110%29.aspx?cs-save-lang=1&cs-lang=csharp&f=255&MSPPError=-2147217396#providing_the_control_contract -->
+    <Application xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:local="clr-namespace:NSTest"
+	x:Class="NSTest.Application"
 	StartupUri="/Source/Views/MainWindow.xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<Application.Resources></Application.Resources>
+	<Application.Resources>
+
+    </Application.Resources>
 </Application>
